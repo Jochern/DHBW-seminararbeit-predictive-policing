@@ -1,0 +1,124 @@
+# ======================================================================
+# Quellen Seminararbeit T-18 Predictive Policing (Hayagriva-Format)
+# Status: VORLAEUFIG -- Primaerquellen pruefen, Blogs/Wikipedia ersetzen!
+# ======================================================================
+
+bverfg2023:
+  type: legal
+  title: "Urteil des Ersten Senats vom 16. Februar 2023 (1 BvR 1547/19 u.a.)"
+  author: "Bundesverfassungsgericht"
+  date: 2023-02-16
+  note: "hessenDATA / HmbPolDVG"
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/02/rs20230216_1bvr154719.html
+
+bverfg1983:
+  type: legal
+  title: "Volkszählungsurteil vom 15. Dezember 1983 (1 BvR 209/83 u.a.)"
+  author: "Bundesverfassungsgericht"
+  date: 1983-12-15
+  note: "Recht auf informationelle Selbstbestimmung"
+
+aiact2024:
+  type: legislation
+  title: "Verordnung (EU) 2024/1689 (KI-Verordnung)"
+  author: "Europäische Union"
+  date: 2024
+  note: "Art. 5 Abs. 1 lit. d; Anhang III"
+
+led2016:
+  type: legislation
+  title: "Richtlinie (EU) 2016/680 (Law Enforcement Directive)"
+  author: "Europäische Union"
+  date: 2016
+
+carpenter2018:
+  type: legal
+  title: "Carpenter v. United States, 585 U.S. ___"
+  author: "Supreme Court of the United States"
+  date: 2018
+  note: "Einschränkung der Third-Party-Doctrine"
+
+winner1980:
+  type: article
+  title: "Do Artifacts Have Politics?"
+  author: "Winner, Langdon"
+  date: 1980
+  parent:
+    type: periodical
+    title: "Daedalus"
+    volume: 109
+    issue: 1
+  page-range: 121-136
+
+jasanoff2004:
+  type: book
+  title: "States of Knowledge: The Co-Production of Science and Social Order"
+  editor: "Jasanoff, Sheila"
+  publisher: "Routledge"
+  date: 2004
+
+lessig2006:
+  type: book
+  title: "Code: Version 2.0"
+  author: "Lessig, Lawrence"
+  publisher: "Basic Books"
+  date: 2006
+
+jakobs1985:
+  type: article
+  title: "Kriminalisierung im Vorfeld einer Rechtsgutsverletzung"
+  author: "Jakobs, Günther"
+  date: 1985
+  parent:
+    type: periodical
+    title: "Zeitschrift für die gesamte Strafrechtswissenschaft"
+    volume: 97
+  page-range: 751-785
+
+jakobs2004:
+  type: article
+  title: "Bürgerstrafrecht und Feindstrafrecht"
+  author: "Jakobs, Günther"
+  date: 2004
+  parent:
+    type: periodical
+    title: "HRRS"
+    issue: 3
+  page-range: 88-95
+
+ferguson2015:
+  type: article
+  title: "Big Data and Predictive Reasonable Suspicion"
+  author: "Ferguson, Andrew Guthrie"
+  date: 2015
+  parent:
+    type: periodical
+    title: "University of Pennsylvania Law Review"
+    volume: 163
+
+ferguson2012:
+  type: article
+  title: "Predictive Policing and Reasonable Suspicion"
+  author: "Ferguson, Andrew Guthrie"
+  date: 2012
+  parent:
+    type: periodical
+    title: "Emory Law Journal"
+    volume: 62
+
+oneil2016:
+  type: book
+  title: "Weapons of Math Destruction"
+  author: "O'Neil, Cathy"
+  publisher: "Crown"
+  date: 2016
+
+benjamin2019:
+  type: book
+  title: "Race After Technology"
+  author: "Benjamin, Ruha"
+  publisher: "Polity Press"
+  date: 2019
+
+# TODO: Egbert/Krasmann (platform policing, place- vs. person-based)
+# TODO: New-Orleans-Fall (wissenschaftliche Quelle statt The Verge)

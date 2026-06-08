@@ -1,0 +1,9 @@
+# Typst-Output
+*.pdf
+!abbildungen/*.pdf
+# Literatur-PDFs nicht ins Repo (Urheberrecht / Groesse)
+literatur/pdf/*.pdf
+# OS / Editor
+.DS_Store
+*.swp
+.vscode/
