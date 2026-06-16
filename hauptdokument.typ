@@ -42,10 +42,9 @@
 // ===== Kapitel =====
 #include "kapitel/01_einleitung.typ"
 #include "kapitel/02_grundlagen.typ"
-#include "kapitel/03_palantir_technik.typ"
-#include "kapitel/04_recht_philosophie.typ"
-#include "kapitel/05_kritische_analyse.typ"
-#include "kapitel/06_fazit.typ"
+#include "kapitel/03_fallstudie_hessendata.typ"
+#include "kapitel/04_kritische_analyse.typ"
+#include "kapitel/05_fazit.typ"
 
 // ===== Literatur =====
 #pagebreak()

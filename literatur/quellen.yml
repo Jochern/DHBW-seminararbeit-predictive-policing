@@ -4,19 +4,35 @@
 # ======================================================================
 
 bverfg2023:
-  type: legal
-  title: "Urteil des Ersten Senats vom 16. Februar 2023 (1 BvR 1547/19 u.a.)"
+  type: case
+  title: "Urteil des Ersten Senats vom 16. Februar 2023 (1 BvR 1547/19, 1 BvR 2634/20)"
   author: "Bundesverfassungsgericht"
   date: 2023-02-16
-  note: "hessenDATA / HmbPolDVG"
+  note: "hessenDATA / HmbPolDVG; BVerfGE 156, 11"
   url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2023/02/rs20230216_1bvr154719.html
 
+bverfg2010_vorratsdaten:
+  type: case
+  title: "Urteil des Ersten Senats vom 2. März 2010 (1 BvR 256/08, 1 BvR 263/08, 1 BvR 586/08)"
+  author: "Bundesverfassungsgericht"
+  date: 2010-03-02
+  note: "Vorratsdatenspeicherung; BVerfGE 125, 260; Grundlegung der Überwachungsgesamtrechnung"
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2010/03/rs20100302_1bvr025608.html
+
+bverfg2016_bkag:
+  type: case
+  title: "Urteil des Ersten Senats vom 20. April 2016 (1 BvR 966/09, 1 BvR 1140/09)"
+  author: "Bundesverfassungsgericht"
+  date: 2016-04-20
+  note: "BKA-Gesetz; BVerfGE 141, 220; kanonische Fundstelle 'hypothetische Datenneuerhebung' (Rn. 287 ff.)"
+  url: https://www.bundesverfassungsgericht.de/SharedDocs/Entscheidungen/DE/2016/04/rs20160420_1bvr096609.html
+
 bverfg1983:
-  type: legal
+  type: case
   title: "Volkszählungsurteil vom 15. Dezember 1983 (1 BvR 209/83 u.a.)"
   author: "Bundesverfassungsgericht"
   date: 1983-12-15
-  note: "Recht auf informationelle Selbstbestimmung"
+  note: "Recht auf informationelle Selbstbestimmung; BVerfGE 65, 1"
 
 aiact2024:
   type: legislation
@@ -32,7 +48,7 @@ led2016:
   date: 2016
 
 carpenter2018:
-  type: legal
+  type: case
   title: "Carpenter v. United States, 585 U.S. ___"
   author: "Supreme Court of the United States"
   date: 2018
@@ -73,7 +89,11 @@ jakobs1985:
     type: periodical
     title: "Zeitschrift für die gesamte Strafrechtswissenschaft"
     volume: 97
+    issue: 4
   page-range: 751-785
+  serial-number:
+    doi: "10.1515/zstw.1985.97.4.751"
+  note: "Strafrechtslehrertagung Frankfurt 1985; dogmatischer Anker fuer Vorverlagerung"
 
 jakobs2004:
   type: article
@@ -85,6 +105,7 @@ jakobs2004:
     title: "HRRS"
     issue: 3
   page-range: 88-95
+  url: https://www.hrr-strafrecht.de/hrr/archiv/04-03/index.php?sz=6
 
 ferguson2015:
   type: article
@@ -120,5 +141,182 @@ benjamin2019:
   publisher: "Polity Press"
   date: 2019
 
-# TODO: Egbert/Krasmann (platform policing, place- vs. person-based)
-# TODO: New-Orleans-Fall (wissenschaftliche Quelle statt The Verge)
+# ----- Predictive Policing / Surveillance Studies -----
+
+egbert2020:
+  type: article
+  title: "Predictive policing: not yet, but soon preemptive?"
+  author: ["Egbert, Simon", "Krasmann, Susanne"]
+  date: 2020
+  parent:
+    type: periodical
+    title: "Policing and Society"
+    volume: 30
+    issue: 8
+  page-range: 905-919
+  serial-number:
+    doi: "10.1080/10439463.2019.1611821"
+  note: "Peer-reviewed; PRECOBS / SKALA / KLB-operativ; Vorverlagerungs-These im DE-Kontext"
+
+egbert_leese2021:
+  type: book
+  title: "Criminal Futures: Predictive Policing and Everyday Police Work"
+  author: ["Egbert, Simon", "Leese, Matthias"]
+  publisher: "Routledge"
+  date: 2021
+  serial-number:
+    doi: "10.4324/9780429328732"
+  url: https://api.taylorfrancis.com/content/books/oa-mono/download?identifierName=doi&identifierValue=10.4324/9780429328732&type=webpdf
+  note: "Open Access (CC-BY); ethnographische Studie zu PP-Alltag in DE/CH"
+
+kaufmann2019:
+  type: article
+  title: "Predictive policing and the politics of patterns"
+  author: ["Kaufmann, Mareile", "Egbert, Simon", "Leese, Matthias"]
+  date: 2019
+  parent:
+    type: periodical
+    title: "British Journal of Criminology"
+    volume: 59
+    issue: 3
+  page-range: 674-692
+  serial-number:
+    doi: "10.1093/bjc/azy060"
+
+brayne2017:
+  type: article
+  title: "Big Data Surveillance: The Case of Policing"
+  author: "Brayne, Sarah"
+  date: 2017
+  parent:
+    type: periodical
+    title: "American Sociological Review"
+    volume: 82
+    issue: 5
+  page-range: 977-1008
+  serial-number:
+    doi: "10.1177/0003122417725865"
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10846878/
+  note: "Peer-reviewed; LAPD-Palantir-Ethnographie; ersetzt The Verge fuer LAPD-Bezug"
+
+# ----- Amtliche Quellen / Drucksachen -----
+
+bt2009495:
+  type: report
+  title: "Handlungsfähigkeit der Strafverfolgungsbehörden sichern – Entscheidung des Bundesministeriums des Innern und für Heimat bezüglich der polizeilichen Analyse-Software Bundes-VeRA revidieren"
+  author: ["Merz, Friedrich", "Dobrindt, Alexander"]
+  date: 2023-11-27
+  note: "BT-Drs. 20/9495; Antrag der CDU/CSU-Fraktion; dokumentiert BMI-Untersagung Juli 2023, Bayern-Ausschreibung 2022, Quellcode-Pruefung Fraunhofer SIT"
+  url: https://dserver.bundestag.de/btd/20/094/2009495.pdf
+
+# ----- Staatsrechtliche Sekundaerliteratur -----
+
+# ----- Palantir Hersteller-Doku (als Selbstbeschreibung kennzeichnen) -----
+
+palantir_ontology:
+  type: web
+  title: "Foundry Ontology Overview"
+  author: "Palantir Technologies"
+  date: 2024
+  url: https://www.palantir.com/docs/foundry/ontology/overview/
+  note: "Hersteller-Doku zu Dynamic Ontology -- Selbstbeschreibung, mit Vorbehalt zitieren"
+
+# ----- Deutsche Strafrechts-/Polizeirechts-Sekundaerliteratur -----
+
+rademacher2017:
+  type: article
+  title: "Predictive Policing im deutschen Polizeirecht"
+  author: "Rademacher, Timo"
+  date: 2017
+  parent:
+    type: periodical
+    title: "Archiv des öffentlichen Rechts (AöR)"
+    volume: 142
+    issue: 3
+  page-range: 366-416
+  serial-number:
+    doi: "10.1628/000389117X15054009148798"
+  note: "Verfassungsrechtliche Einordnung pre-hessenDATA"
+
+hoffmannriem2008:
+  type: article
+  title: "Der grundrechtliche Schutz der Vertraulichkeit und Integrität eigengenutzter informationstechnischer Systeme"
+  author: "Hoffmann-Riem, Wolfgang"
+  date: 2008
+  parent:
+    type: periodical
+    title: "Juristenzeitung (JZ)"
+    volume: 63
+    issue: 21
+  page-range: 1009-1022
+  note: "Standardstelle IT-Grundrecht / informationelle Selbstbestimmung"
+
+gusy2017:
+  type: book
+  title: "Polizei- und Ordnungsrecht"
+  author: "Gusy, Christoph"
+  publisher: "Mohr Siebeck"
+  date: 2017
+  edition: 10
+  note: "Lehrbuch-Standardstelle Polizeirecht"
+
+sommerer2020:
+  type: book
+  title: "Personenbezogenes Predictive Policing: Kriminalwissenschaftliche Untersuchung über die Automatisierung der Kriminalprognose"
+  author: "Sommerer, Lucia M."
+  publisher: "Nomos"
+  date: 2020
+  note: "Einzige dt. Monographie zum Thema; Diss. Goettingen"
+
+ferguson2017:
+  type: book
+  title: "The Rise of Big Data Policing: Surveillance, Race, and the Future of Law Enforcement"
+  author: "Ferguson, Andrew Guthrie"
+  publisher: "NYU Press"
+  date: 2017
+  note: "Buch-Ergaenzung zu ferguson2015/2012; LAPD/NOPD/Chicago"
+
+pilotstudie2025:
+  type: report
+  title: "Überwachungsgesamtrechnung für Deutschland -- Pilotstudie. Band 1: Bericht"
+  author: "Bundesministerium der Justiz und Bundesministerium des Innern und für Heimat"
+  date: 2025-01
+  note: "Forschungsbericht im Auftrag von BMJ und BMI; empirische Operationalisierung der Ueberwachungsgesamtrechnung"
+
+mohler2011:
+  type: article
+  title: "Self-Exciting Point Process Modeling of Crime"
+  author: ["Mohler, George O.", "Short, Martin B.", "Brantingham, P. Jeffrey", "Schoenberg, Frederic P.", "Tita, George E."]
+  date: 2011
+  parent:
+    type: periodical
+    title: "Journal of the American Statistical Association"
+    volume: 106
+    issue: 493
+  page-range: 100-108
+  serial-number:
+    doi: "10.1198/jasa.2011.ap09546"
+  note: "ETAS-Modell als algorithmische Basis von PredPol (Near-Repeat)"
+
+christen2012:
+  type: book
+  title: "Data Matching: Concepts and Techniques for Record Linkage, Entity Resolution, and Duplicate Detection"
+  author: "Christen, Peter"
+  publisher: "Springer"
+  date: 2012
+  serial-number:
+    doi: "10.1007/978-3-642-31164-2"
+  note: "Standardwerk Entity Resolution; Fellegi-Sunter, probabilistisches Matching"
+
+thurn_egbert2019:
+  type: article
+  title: "Predictive Policing: Die Algorithmisierung der Polizei als Risiko für die Bürgerrechte?"
+  author: ["Thurn, Roman", "Egbert, Simon"]
+  date: 2019
+  parent:
+    type: periodical
+    title: "vorgänge -- Zeitschrift für Bürgerrechte und Gesellschaftspolitik"
+    issue: 227
+  page-range: 71-84
+  url: https://www.humanistische-union.de/publikationen/vorgaenge/227/publikation/predictive-policing-die-algorithmisierung-der-polizei-als-risiko-fuer-die-buergerrechte-1/
+  note: "Buergerrechtliche Perspektive auf raumbezogenes PP in DE"
