@@ -16,5 +16,3 @@ Johannes Kling -- WWI 23SEB -- DHBW Mannheim -- Integrationsseminar (Team Pagnia
 - ./watch.sh    Live-Vorschau
 - ./wortzahl.sh Woerter zaehlen (Ziel 3000 +/-10%)
 
-## Voraussetzungen
-Typst CLI: cargo install --locked typst-cli  oder  brew install typst
