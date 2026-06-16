@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.bundesverfassungsgericht.de)",
+      "Bash(./wortzahl.sh)"
+    ]
+  }
+}
